@@ -1,0 +1,57 @@
+Feedback project readme -
+
+
+FeedbackContext.jsx
+
+for the global state, ive used the context api {useContext} in react
+context api is used so that we dont have to prop drill at every component from one another, we get a central file from where every componenet can get its props or components directly
+
+code -
+
+we've to export the createcontext, this is the context were gonna use in every file where we need ohter components - export const FeedbackContext = createContext
+
+we also need to make a provider 
+
+The FeedbackProvider component is responsible for providing a context to its child components. It uses the createContext function to create a context named FeedbackContext
+
+export const FeedbackProvider = ({children})=>{
+		//we can define our usestates and functions here now instead of separate components
+		
+}
+
+return(<FeedbackContext.Provider value={{
+
+		//the functions, usestates that you have defined above need to be add here and then with the same name pass it to the component then you can use it
+
+}}> {children})
+
+
+In the components instead of passing props now just add - 
+const{//usestate,func} = useContext(FeedbackContext)
+
+
+
+useEffect -
+useeffect is used in whenever we want to change the value or render component in between the state lifecycle of it as there are 4-
+initialization
+mount on page
+updation
+unmount/remove from page
+
+syntax - useeffect((),[]) the two parameters are - 1. function 2. an array of dependencies where we want to update value
+therefore whenewver we want to update the value then only an array of dependencies is used
+for mounting we dont need array
+for unmounting we need to include a return function statement inside the useeffect
+
+
+
+
+editFeed -  
+the line return { ...item, ...data }; effectively creates a new object by taking all the properties from the existing item object and updating it with any properties from the data object. This is a common pattern in JavaScript for updating or merging objects. In the context of the code, it's used to create a new object representing the feedback item with the updated properties received from the server.
+
+
+useReducer hook -
+
+
+
+
