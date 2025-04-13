@@ -1,0 +1,67 @@
+{
+  "name": "Arpit Bahukhandi",
+  "location": "Dehra Dun, Uttarakhand 248001",
+  "contact": {
+    "phone": "+91-6398477078",
+    "email": "arpitbahukhandi032@gmail.com",
+    "linkedin": "https://linkedin.com/in/arpit-bahukhandi-2551851b6",
+    "github": "https://github.com/Arpit032"
+  },
+  "summary": "Guidewire ClaimCenter developer with expertise in Java and Gosu. Skilled in performance optimization, GUnit testing, and agile methodologies. Strong problem-solving abilities and experience in system configuration and integrations.",
+  "skills": [
+    "Guidewire ClaimCenter",
+    "Gosu",
+    "Java",
+    "SQL",
+    "Git",
+    "Bitbucket",
+    "SVN",
+    "JIRA",
+    "GUnit Testing",
+    "Agile Methodologies"
+  ],
+  "experience": [
+    {
+      "title": "Programmer Analyst",
+      "company": "Cognizant Technology Solutions",
+      "location": "Kolkata, India",
+      "start_date": "Sep 2023",
+      "end_date": "Present",
+      "responsibilities": [
+        "Configured Guidewire ClaimCenter for major insurance clients",
+        "Developed GUnit test cases and helper class enhancements",
+        "Improved code performance and modularity",
+        "Participated in Agile ceremonies and sprint planning"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "iCare Insurance (Australia)",
+      "details": [
+        "Customized PCF screens and user flows for TMF-Worker’s Compensation",
+        "Created rule sets for claims and exposures",
+        "Developed GOSU scripts and GUnit tests"
+      ]
+    },
+    {
+      "name": "DLG Direct Line (UK)",
+      "details": [
+        "Migrated Guidewire ClaimCenter from v5 to v10",
+        "Handled data migration via admin data loader",
+        "Resolved SonarQube issues and refined business rules",
+        "Worked on transaction sets: reserves, payments, recovery"
+      ]
+    }
+  ],
+  "education": {
+    "degree": "MCA",
+    "institution": "Graphic Era (Deemed to be University)",
+    "location": "Dehradun",
+    "graduation_date": "Jan 2023",
+    "gpa": "8.01"
+  },
+  "certifications": [
+    "Guidewire Certified Specialist – ClaimCenter Configuration (2024)"
+  ]
+}
